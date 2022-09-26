@@ -517,7 +517,7 @@ __install_rita() {
 # INFORMATION GATHERING
 
 __gather_OS() {
-    _OS="$(lsb_release -is)"
+    _OS="CentOS"
     _OS_CODENAME="$(lsb_release -cs)"
     _MONGO_OS_CODENAME="$(lsb_release -cs)"
 
