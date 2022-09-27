@@ -518,8 +518,8 @@ __install_rita() {
 
 __gather_OS() {
     _OS="CentOS"
-    _OS_CODENAME="$(lsb_release -cs)"
-    _MONGO_OS_CODENAME="$(lsb_release -cs)"
+    _OS_CODENAME="$(Core)"
+    _MONGO_OS_CODENAME="$(Core)"
 
     # Use the Ubuntu 18 package for MongoDB 4.2 on Xenial
     if [ "$_OS" = "Ubuntu" -a "$_MONGO_OS_CODENAME" = "focal" ]; then 
